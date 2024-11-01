@@ -13,7 +13,7 @@ const Navbar = () => {
                 <FaInstagram />
             </div>
         </nav>
-    );
+    )
 }
 
 export default Navbar;
