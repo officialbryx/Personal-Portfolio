@@ -3,8 +3,8 @@ import { ABOUT_TEXT } from "../constants/index.js"
 
 const About = () => {
     return (
-        <div className="border-b border-white pb-4">
-            <h1 className="my-20 text-center text-4xl">ABOUT
+        <div className="pb-8 pt-40">
+            <h1 className="my-10 text-center text-4xl mt-10">ABOUT
                 <span className="bg-gradient-to-r from-red-500 via-purple-500 to-indigo-700 bg-clip-text text-transparent">
                     {" "}ME
                 </span>
