@@ -1,4 +1,5 @@
 import logo from "../assets/bryanTiamzonLogo.png";
+import { Link } from 'react-scroll'
 
 const Navbar = () => {
     return (

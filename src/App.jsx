@@ -5,7 +5,7 @@ import About from "./components/About";
 const App = () => {
   return (
     <div className="overflow-x-hidden text-neutral-300 antialiased selection:bg-cyan-300 selection:text-cyan-900">
-      <div className="relative h-screen w-screen bg-slate-950 overflow-hidden">
+      <div className="relative min-h-screen w-screen bg-slate-950 overflow-hidden">
         <div className="absolute inset-0 bg-[radial-gradient(circle_500px_at_50%_200px,#3e3e3e,transparent)]"></div>
 
         {/* Main Content */}
