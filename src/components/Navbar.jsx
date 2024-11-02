@@ -10,7 +10,7 @@ const Navbar = () => {
                 <h1>Home</h1>
                 <h1>About</h1>
                 <h1>Projects</h1>
-                <button className="ml-8 px-4 py-2 text-2xl font-medium text-white bg-blue-500 rounded-lg hover:bg-blue-600 transition-colors duration-300">
+                <button className="ml-8 px-4 py-2 text-2xl font-medium rounded-lg moving-gradient-bg transition-transform duration-300 hover:scale-105">
                     Contact Me
                 </button>
             </div>

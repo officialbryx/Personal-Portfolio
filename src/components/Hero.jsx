@@ -8,7 +8,7 @@ const Hero = () => {
             <div className="flex flex-wrap">
                 <div className="w-full lg:w-1/2">
                     <div className="flex flex-col items-center lg:items-start">
-                        <h1 className="ml-1.5 mt-10 text-7xl font-thin tracking-tight lg:text-3xl">Hi, My name is</h1>
+                        <h1 className="ml-1.5 mt-10 mb-1 text-7xl font-thin tracking-tight lg:text-4xl">Hi, I'm</h1>
                         <h1 className="pb-8 text-6xl font-thin tracking-tight lg:text-7xl">Bryan Tiamzon</h1>
                         <div className="flex items-baseline space-x-2">
                             <span className="text-4xl font-light">An Aspiring</span>

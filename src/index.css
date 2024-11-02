@@ -25,3 +25,12 @@
   background-clip: text;
   animation: gradientMove 10s linear infinite;
 }
+
+.moving-gradient-bg {
+  background: linear-gradient(270deg, #ff0000, #a300ff, #0000ff, #a300ff);
+  background-size: 600% 600%;
+  animation: gradientMove 10s linear infinite;
+  color: white;
+  border: none;
+  outline: none;
+}
