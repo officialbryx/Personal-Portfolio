@@ -6,3 +6,22 @@
 :root {
   font-family: "Roboto";
 }
+
+@keyframes gradientMove {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
+.moving-gradient {
+  background: linear-gradient(270deg, #ff0000, #a300ff, #0000ff, #a300ff);
+  background-size: 600% 600%;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  animation: gradientMove 10s linear infinite;
+}

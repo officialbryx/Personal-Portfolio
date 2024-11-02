@@ -1,5 +1,4 @@
 import logo from "../assets/bryanTiamzonLogo.png";
-import { FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa";
 
 const Navbar = () => {
     return (
@@ -7,13 +6,16 @@ const Navbar = () => {
             <div className="flex flex-shrink-0 items-center">
                 <img src={logo} alt="logo" style={{ height: '170px', width: '170px' }} />
             </div>
-            <div className="m-8 flex items-center justify-center gap-4 text-3xl">
-                <FaLinkedin />
-                <FaGithub />
-                <FaInstagram />
+            <div className="m-8 flex items-center justify-center gap-4 text-2xl">
+                <h1>Home</h1>
+                <h1>About</h1>
+                <h1>Projects</h1>
+                <button className="ml-8 px-4 py-2 text-2xl font-medium text-white bg-blue-500 rounded-lg hover:bg-blue-600 transition-colors duration-300">
+                    Contact Me
+                </button>
             </div>
         </nav>
-    )
+    );
 }
 
 export default Navbar;

@@ -1,5 +1,6 @@
 import { HERO_CONTENT } from "../constants/index";
 import profilePic from "../assets/profilePic.jpg";
+import { FaLinkedin, FaGithub, FaInstagram } from 'react-icons/fa';
 
 const Hero = () => {
     return (
@@ -7,11 +8,20 @@ const Hero = () => {
             <div className="flex flex-wrap">
                 <div className="w-full lg:w-1/2">
                     <div className="flex flex-col items-center lg:items-start">
-                        <h1 className="pb-16 text-6xl font-thin tracking-tight lg:mt-16 lg:text-7xl">Bryan Tiamzon</h1>
-                        <span className="bg-gradient-to-r from-red-500 via-purple-500 to-indigo-700 bg-clip-text text-4xl tracking-tight text-transparent">
-                            Data Scientist
-                        </span>
+                        <h1 className="ml-1.5 mt-10 text-7xl font-thin tracking-tight lg:text-3xl">Hi, My name is</h1>
+                        <h1 className="pb-8 text-6xl font-thin tracking-tight lg:text-7xl">Bryan Tiamzon</h1>
+                        <div className="flex items-baseline space-x-2">
+                            <span className="text-4xl font-light">An Aspiring</span>
+                            <span className="moving-gradient text-4xl font-semibold">Data Scientist</span>
+                        </div>
                         <p className="my-2 max-w-xl py-6 font-light tracking-tighter">{HERO_CONTENT}</p>
+
+                        {/* Social Icons */}
+                        <div className="flex space-x-4 mt-4">
+                            <FaLinkedin className="text-4xl hover:text-blue-500 cursor-pointer" />
+                            <FaGithub className="text-4xl hover:text-gray-400 cursor-pointer" />
+                            <FaInstagram className="text-4xl hover:text-pink-500 cursor-pointer" />
+                        </div>
                     </div>
                 </div>
                 <div className="w-full lg:w-1/2 lg:p-8">
